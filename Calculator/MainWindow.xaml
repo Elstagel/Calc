@@ -5,50 +5,47 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Calculator"
         mc:Ignorable="d"
-        Title="Окошко" Height="450" Width="300" WindowStartupLocation="CenterScreen">
+        Title="Клькулятор" Height="350" Width="350" WindowStartupLocation="CenterScreen">
 
     <Grid>
-        <Grid Margin="10">
+        <Grid Margin="0.5">
             <Grid.RowDefinitions>
-                <RowDefinition Height="3*"/>
-                <RowDefinition Height="1*"/>
-                <RowDefinition Height="1*"/>
-                <RowDefinition Height="1*"/>
-                <RowDefinition Height="1*"/>
-                <RowDefinition Height="1*"/>
-                <RowDefinition Height="1*"/>
-                <RowDefinition Height="1*"/>
+                <RowDefinition Height="0.5*"/>
+                <RowDefinition Height="0.8*"/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="1*"/>
-                <ColumnDefinition Width="1*"/>
-                <ColumnDefinition Width="1*"/>
-                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
             </Grid.ColumnDefinitions>
 
-            <TextBlock Margin="3" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="4" FontSize="36" FontWeight="Bold" TextAlignment="Center">Calc</TextBlock>
-            <TextBlock Margin="3" Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="4" TextAlignment="Right" Background="#FFCEFEFF">1+1</TextBlock>
-            <TextBlock Margin="3" Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="4" TextAlignment="Right" Background="#FFCEFEFF">=2</TextBlock>
-            <Button Margin="3" Grid.Column="0" Grid.Row="3">AC</Button>
-            <Button Margin="3" Grid.Column="1" Grid.Row="3">&lt;</Button>
-            <Button Margin="3" Grid.Column="2" Grid.Row="3">%</Button>
-            <Button Margin="3" Grid.Column="3" Grid.Row="3">/</Button>
-            <Button Margin="3" Grid.Column="0" Grid.Row="4">7</Button>
-            <Button Margin="3" Grid.Column="1" Grid.Row="4">8</Button>
-            <Button Margin="3" Grid.Column="2" Grid.Row="4">9</Button>
-            <Button Margin="3" Grid.Column="3" Grid.Row="4">*</Button>
-            <Button Margin="3" Grid.Column="0" Grid.Row="5">4</Button>
-            <Button Margin="3" Grid.Column="1" Grid.Row="5">5</Button>
-            <Button Margin="3" Grid.Column="2" Grid.Row="5">6</Button>
-            <Button Margin="3" Grid.Column="3" Grid.Row="5">-</Button>
-            <Button Margin="3" Grid.Column="0" Grid.Row="6">1</Button>
-            <Button Margin="3" Grid.Column="1" Grid.Row="6">2</Button>
-            <Button Margin="3" Grid.Column="2" Grid.Row="6">3</Button>
-            <Button Margin="3" Grid.Column="3" Grid.Row="6">+</Button>
-            <Button Margin="3" Grid.Column="0" Grid.Row="7">^</Button>
-            <Button Margin="3" Grid.Column="1" Grid.Row="7">0</Button>
-            <Button Margin="3" Grid.Column="2" Grid.Row="7">,</Button>
-            <Button Margin="3" Grid.Column="3" Grid.Row="7">=</Button>
+            <TextBlock Margin="1" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="4" TextAlignment="Right" Background="#FFC6F6F9">1+1</TextBlock>
+            <TextBlock Margin="1" Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="4" TextAlignment="Right" Background="#FFC6F6F9">=2</TextBlock>
+            <Button Margin="1" Grid.Column="0" Grid.Row="2">CE</Button>
+            <Button Margin="1" Grid.Column="1" Grid.Row="2">C</Button>
+            <Button Margin="1" Grid.Column="2" Grid.Row="2">&lt;</Button>
+            <Button Margin="1" Grid.Column="3" Grid.Row="2">/</Button>
+            <Button Margin="1" Grid.Column="0" Grid.Row="3">7</Button>
+            <Button Margin="1" Grid.Column="1" Grid.Row="3">8</Button>
+            <Button Margin="1" Grid.Column="2" Grid.Row="3">9</Button>
+            <Button Margin="1" Grid.Column="3" Grid.Row="3">*</Button>
+            <Button Margin="1" Grid.Column="0" Grid.Row="4">4</Button>
+            <Button Margin="1" Grid.Column="1" Grid.Row="4">5</Button>
+            <Button Margin="1" Grid.Column="2" Grid.Row="4">6</Button>
+            <Button Margin="1" Grid.Column="3" Grid.Row="4">-</Button>
+            <Button Margin="1" Grid.Column="0" Grid.Row="5">1</Button>
+            <Button Margin="1" Grid.Column="1" Grid.Row="5">2</Button>
+            <Button Margin="1" Grid.Column="2" Grid.Row="5">3</Button>
+            <Button Margin="1" Grid.Column="3" Grid.Row="5">+</Button>
+            <Button Margin="1" Grid.Column="0" Grid.Row="6">.</Button>
+            <Button Margin="1" Grid.Column="1" Grid.Row="6">0</Button>
+            <Button Margin="1" Grid.Column="2" Grid.Row="6" Grid.ColumnSpan="2">=</Button>
         </Grid>
     </Grid>
 </Window>
